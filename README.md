@@ -1,1 +1,3 @@
 # IKEAautoencoder
+
+Developed a deep learning-based classifier for IKEA furniture images using stacked autoencoders and PyTorch. The project involved creating three autoencoders (AE1, AE2, AE3) to progressively extract features from images of furniture items such as beds, chairs, sofas, and tables. AE1 was built with convolutional layers and a deconvolutional decoder, AE2 and AE3 followed a similar architecture but used the output from the previous autoencoders as input. A final classifier was developed to classify images into one of the four categories, achieving an accuracy above 95% by combining the features extracted from the stacked autoencoders.
